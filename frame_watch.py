@@ -2,7 +2,7 @@ import os
 from PIL import Image
 import matplotlib.pyplot as plt
 
-root = r"F:\Taraneh\university\Job and Phd applications\ECCV2026-challenge\datasets\articulation data\kitchen_9_obj1"
+root = r"\path\to\object"
 frame_dir = os.path.join(root, "rgb")  
 frames = sorted(os.listdir(frame_dir))
 print(f"Total frames: {len(frames)}")

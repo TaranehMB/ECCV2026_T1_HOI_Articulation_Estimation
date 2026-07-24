@@ -1,6 +1,6 @@
 import os
 
-root = r"F:\Taraneh\university\Job and Phd applications\ECCV2026-challenge\datasets\articulation data\kitchen_9_obj1"
+root = r"\path\to\object"
 
 for dirpath, dirnames, filenames in os.walk(root):
     depth = dirpath[len(root):].count(os.sep)
